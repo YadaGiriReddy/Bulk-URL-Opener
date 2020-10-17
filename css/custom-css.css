@@ -1,0 +1,60 @@
+.avatar {
+    background: #f1f1f1;
+    color: rgba(255, 255, 255, .85);
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 300;
+    height: 1.6rem;
+    line-height: 1.25;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 1.6rem
+}
+.avatar.avatar-sm {
+    border-radius: 50%;
+    font-size: .6rem;
+    height: 2rem;
+    width: 2rem
+}
+
+.avatar.avatar-smx {
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 2.7rem
+}
+
+.avatar.avatar-mainLogo{
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 2rem
+}
+
+.avatar.avatar-sm img {
+    border-radius: 50%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.avatar.avatar-smx img {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.avatar.avatar.avatar-mainLogo img{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.model-styled-div {
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 12px grey;
+  }

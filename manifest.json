@@ -1,0 +1,22 @@
+{
+  "name": "Bulk URL Opener",
+  "version": "1.0",
+  "description": "Opens multiple URLs in one click",
+  "icons": {
+    "128": "images/Logo.png"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "images/Logo.png"
+    }
+  },
+  "manifest_version": 2
+}
