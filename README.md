@@ -19,6 +19,7 @@ Bulk URL Opener is a Chrome/Edge extension developed to Open multiple URLs in on
 
 1. After the installation, open the extension by clicking on it.
 It will open the extension as shown in the below image.
+
 ![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/9QFG2gWbtY4HabzeOcGkWBMBmzIs0qI9lTce8hqLReRJ-vnJ8xzFjixIA9FAa-y7spu7hPQfQg=w640-h400-e365-rj-sc0x00ffffff)
 2. You can enter the list of URLs(one URL per line) manually (if they are not opened in the browser at that time) or you can just click on the "Get All Currently Opened Tab URLs" button.
 ![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/23WWigHUcJMEy6GEF93nMqWt1fwGSa_EA1jM9T5C_deIFEeY_HpeFc2I6UvNoE1vzEU55zzwqA=w640-h400-e365-rj-sc0x00ffffff)
