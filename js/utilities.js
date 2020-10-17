@@ -99,7 +99,7 @@ function saveConfiguration() {
 }
 
 function isUrlValid(url) {
-    if (url.length > 0 && !(url.startsWith("chrome-extension://")) && url != "chrome://newtab/")
+    if (url.length > 0 && !(url.startsWith("chrome-extension://")) && url != "chrome://newtab/" && url != "edge://extensions/")
         return true;
     else
         return false;

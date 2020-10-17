@@ -102,8 +102,10 @@ window.onload = function () {
             if (lists.trim().length > 0) {
                 var listsArr = lists.split("&&&");
                 listsArr.forEach(listname => {
-                    var option = new Option(listname, listname.replace(" ", ""));
-                    urlListCombo.add(option);
+                    if (listname.trim().length > 0) {
+                        var option = new Option(listname, listname.replace(" ", ""));
+                        urlListCombo.add(option);
+                    }
                 });
             }
         }
@@ -115,7 +117,7 @@ window.onload = function () {
             rangeSelector.value = data.BulkUrlOpenerConfiguration.waitTime;
             selectedRangeLbl.innerHTML = data.BulkUrlOpenerConfiguration.waitTime;
             var selectedOptionText = data.BulkUrlOpenerConfiguration.selectedList;
-            
+
             if (selectedOptionText != "Select URL List") {
                 for (var i = 0; i < urlListCombo.options.length; i++) {
                     if (urlListCombo.options[i].text == selectedOptionText) {
