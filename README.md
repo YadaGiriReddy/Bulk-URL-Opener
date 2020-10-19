@@ -1,7 +1,8 @@
 # Bulk-URL-Opener
 ![Bulk-URL-Opener](https://1.bp.blogspot.com/-i0s8SbNJZCc/X4sviQ6NgNI/AAAAAAAABJQ/ne1QKJs_GHY58Zl572miY9NPphgKOaexQCLcBGAsYHQ/w200-h200/Logo.png)
 
-Bulk URL Opener is a Chrome/Edge extension developed to Open multiple URLs in one click.
+Bulk URL Opener is an extension developed to Open multiple URLs in one click and it is supported by Chrome, Edge, Firefox and Opera browsers.
+
 ## Features
 * Open multiple URLs in just one click
 * Get all the currently opened tab URLs by clicking on one button, instead of copy-pasting each URL.
@@ -11,9 +12,13 @@ Bulk URL Opener is a Chrome/Edge extension developed to Open multiple URLs in on
 * It also helps you in maintaining multiple sets of URLs.
 * You can perform Edit/Update/Delete operations on the saved list of URLs.
 * You can save the entire extension configuration(tab creation delay, focus opened tabs, and the default list of URLs) in just one click.
+
 ## Download Links
 * Google Chrome - https://bit.ly/3m0n4NF
 * Microsoft Edge - Yet to be updated
+* Mozilla Firefox - Yet to be updated
+* Opera - Yet to be updated
+
 ## Usage Instructions:
 <Please watch this video to understand the usage of this extension or read the below-mentioned steps.>
 
