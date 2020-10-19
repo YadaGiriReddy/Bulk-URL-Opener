@@ -40,8 +40,7 @@ function saveUrlsAsList() {
             urlListCombo.add(option);
 
             chrome.storage.sync.get("listOfUrls", function (data) {
-                console.log(data.listOfUrls);
-
+                
                 if (data.listOfUrls === undefined) {
                     chrome.storage.sync.set({
                         listOfUrls: {
@@ -99,7 +98,16 @@ function saveConfiguration() {
 }
 
 function isUrlValid(url) {
-    if (url.length > 0 && !(url.startsWith("chrome-extension://")) && url != "chrome://newtab/" && url != "edge://extensions/")
+    var knownInvalidUrls = ["chrome://extensions/", "chrome://newtab/", "edge://extensions/", "edge://newtab/", "about:addons", "about:newtab", "chrome://startpageshared/"];
+    if (url.length > 0 &&
+        !(knownInvalidUrls.indexOf(url) > -1) &&
+        !(url.startsWith("chrome-extension://")) &&
+        !(url.startsWith("chrome://extensions")) &&
+        !(url.startsWith("edge://extensions")) &&
+        !(url.startsWith("extension://")) &&
+        !(url.startsWith("about:debugging")) &&
+        !(url.startsWith("about:devtools")) && 
+        !(url.startsWith("moz-extension")))
         return true;
     else
         return false;
@@ -302,7 +310,7 @@ function enableTheControls() {
 function openUrlInNewTab(urlLink, focus) {
     chrome.runtime.sendMessage({
         method: "open",
-        link  : urlLink,
-        focus : focus
+        link: urlLink,
+        focus: focus
     }, function (response) {});
 }
