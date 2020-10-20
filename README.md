@@ -17,7 +17,7 @@ Bulk URL Opener is an extension developed to Open multiple URLs in one click and
 * Google Chrome - https://bit.ly/3m0n4NF
 * Microsoft Edge - Yet to be updated
 * Mozilla Firefox - Yet to be updated
-* Opera - Yet to be updated
+* Opera - https://bit.ly/3o8f7rv
 
 ## Usage Instructions:
 <Please watch this video to understand the usage of this extension or read the below-mentioned steps.>
