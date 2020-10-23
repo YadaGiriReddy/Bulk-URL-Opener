@@ -52,3 +52,6 @@ It will open the extension as shown in the below image.
 12. Here we have modified the tab creation delay, focus, and list of URLs. if you wish to save this configuration for future purposes then click on the "Save Current Configuration" button.
 
 If you like this extension, please provide your ratings with the feedback.
+
+## License
+This project is licensed under the BSD-3-Clause - see the [LICENSE.md](https://github.com/YadaGiriReddy/Bulk-URL-Opener/blob/main/LICENSE) file for details
