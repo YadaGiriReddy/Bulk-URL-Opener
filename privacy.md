@@ -3,7 +3,7 @@ This document is used to inform our users regarding the policies with the use, c
 
 You’re requested to review and agree to the use and collection of information when you choose to use our service.
 
-Bulk URL Opener collects only the user saved URL information unlike bookmarking. It allows user to save the URLs in user-defined categories, and then appropriate user-selected category related URL's gets loaded.
+Bulk URL Opener collects only the user saved URL information. Unlike bookmarking, It allows user to save the URLs in user-defined categories, and then appropriate user-selected category related URL's gets loaded.
 
 We assure you that we won’t share your information with anyone. All the terms used in this Privacy Policy have the same meanings that are in our Terms and Conditions.
 # Information Collected and its Uses
