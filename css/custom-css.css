@@ -1,60 +1,130 @@
+/* -----------------------------------------------------------------------------
+   Avatar Styles
+   ----------------------------------------------------------------------------- */
+
 .avatar {
     background: #f1f1f1;
-    color: rgba(255, 255, 255, .85);
+    color: rgba(255, 255, 255, 0.85);
     display: inline-block;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 300;
     height: 1.6rem;
     line-height: 1.25;
     margin: 0;
     position: relative;
     vertical-align: middle;
-    width: 1.6rem
+    width: 1.6rem;
 }
+
 .avatar.avatar-sm {
     border-radius: 50%;
-    font-size: .6rem;
+    font-size: 0.6rem;
     height: 2rem;
-    width: 2rem
+    width: 2rem;
 }
 
 .avatar.avatar-smx {
     font-size: 1.2rem;
     height: 2rem;
-    width: 2.7rem
+    width: 2.7rem;
 }
 
-.avatar.avatar-mainLogo{
+.avatar.avatar-mainLogo {
     font-size: 1.2rem;
     height: 2rem;
-    width: 2rem
+    width: 2rem;
+}
+
+.avatar img {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
 .avatar.avatar-sm img {
     border-radius: 50%;
-    height: 100%;
-    position: relative;
-    width: 100%;
-    z-index: 1
 }
 
-.avatar.avatar-smx img {
-    height: 100%;
-    position: relative;
-    width: 100%;
-    z-index: 1
+figure.avatar {
+    background-color: transparent;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.avatar.avatar.avatar-mainLogo img{
-    height: 100%;
-    position: relative;
-    width: 100%;
-    z-index: 1
-}
+/* -----------------------------------------------------------------------------
+   Layout Styles
+   ----------------------------------------------------------------------------- */
 
 .model-styled-div {
     border: 1px solid;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 3px 3px 12px grey;
-  }
+}
+
+.custom-button {
+    min-width: 120px;
+}
+
+.button-container {
+    gap: 10px;
+}
+
+/* -----------------------------------------------------------------------------
+   Social Link Styles
+   ----------------------------------------------------------------------------- */
+
+.github-link,
+.youtube-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-svg,
+.youtube-svg {
+    width: 55px;
+    height: 55px;
+}
+
+.youtube-red {
+    fill: #FF3D00;
+}
+
+.youtube-white {
+    fill: #FFF;
+}
+
+.github-path {
+    fill: #333;
+}
+
+
+/* -----------------------------------------------------------------------------
+   Button Styles
+   ----------------------------------------------------------------------------- */
+
+/* Default button text color to black */
+.btn-primary,
+.btn-secondary,
+.btn-success,
+.btn-danger,
+.btn-warning,
+.btn-info,
+.btn-light {
+    color: black;
+}
+
+/* Change button text color to white on hover */
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-warning:hover,
+.btn-info:hover,
+.btn-light:hover {
+    color: white;
+}

@@ -1,57 +1,95 @@
 # Bulk-URL-Opener
 ![Bulk-URL-Opener](https://1.bp.blogspot.com/-i0s8SbNJZCc/X4sviQ6NgNI/AAAAAAAABJQ/ne1QKJs_GHY58Zl572miY9NPphgKOaexQCLcBGAsYHQ/w200-h200/Logo.png)
 
-Bulk URL Opener is an extension developed to Open multiple URLs in one click and it is supported by Chrome, Edge, Firefox and Opera browsers.
+Bulk URL Opener is a powerful Chrome extension designed to revolutionize how you manage and access multiple web pages. With a single click, you can effortlessly open a list of URLs in new tabs, significantly boosting your productivity and saving you valuable time.
 
-## Features
-* Open multiple URLs in just one click
-* Get all the currently opened tab URLs by clicking on one button, instead of copy-pasting each URL.
-* You can set the tab creation delay, which helps you in opening each URL after a specific wait time.
-* You can set the focus on every new tab that is being opened by this extension.
-* You can save the set of URLs as a List and can load that list in the future.
-* It also helps you in maintaining multiple sets of URLs.
-* You can perform Edit/Update/Delete operations on the saved list of URLs.
-* You can save the entire extension configuration(tab creation delay, focus opened tabs, and the default list of URLs) in just one click.
 
-## Download Links
+**Key Features:**
+* **Bulk URL Opening:** Open multiple URLs simultaneously with a single click. Simply enter a list of URLs, one per line, into the provided text area.
+* **Get Current Tab URLs:** Quickly capture all URLs from your currently open tabs by clicking the "Get All Currently Opened Tab URLs" button.
+* **URL List Management:**
+    * Save, load, edit, update, and delete URL lists for convenient storage and reuse.
+    * Organize your frequently accessed URLs into categorized lists.
+* **Customizable Delay:** Control the pace of URL opening by setting a specific time delay between each tab. This feature is particularly useful for websites that may restrict rapid access.
+* **Focus Opened Tabs:** Choose whether to focus on each newly opened tab or let them open in the background.
+* **Stop URL Opening:** Gain complete control over the URL opening process. You can now halt the opening of URLs at any time, preventing unnecessary tabs from cluttering your browser.
+* **Dark Theme Support:** Embrace a comfortable browsing experience with the newly added dark theme. Reduce eye strain and enjoy a visually appealing interface, especially during extended use or in low-light environments.
+* **Save Configuration:** Save your preferred extension settings, including dark theme preference, URL opening delay, and focus tab options, for a personalized browsing experience.
+
+**Download Links**
 * Google Chrome - https://bit.ly/3m0n4NF
 * Microsoft Edge - https://bit.ly/3532YN5
 * Mozilla Firefox - https://mzl.la/3klkXU7
 * Opera - https://bit.ly/3o8f7rv
 
-## Usage Instructions:
-<Please watch this video to understand the usage of this extension or read the below-mentioned steps.>
+**Key Enhancements Over Previous Versions:**
 
-1. After the installation, open the extension by clicking on it.
-It will open the extension as shown in the below image.
+This updated version(v2.0) of Bulk URL Opener introduces significant improvements, focusing on enhanced user control, performance, security, and customization.
 
-![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/9QFG2gWbtY4HabzeOcGkWBMBmzIs0qI9lTce8hqLReRJ-vnJ8xzFjixIA9FAa-y7spu7hPQfQg=w640-h400-e365-rj-sc0x00ffffff)
+* **Stop URL Opening:** Gain complete control over the URL opening process. You can now halt the opening of URLs at any time, preventing unnecessary tabs from cluttering your browser.
+* **Dark Theme Support:** Embrace a comfortable browsing experience with the newly added dark theme. Reduce eye strain and enjoy a visually appealing interface, especially during extended use or in low-light environments.
+* **Performance Optimization:** Experience a smoother and faster URL opening process. We've implemented numerous performance enhancements to minimize delays and ensure efficient tab management.
+* **Security Improvements:** Your browsing security is paramount. We've reinforced the extension's security measures to protect your data and ensure a safe browsing experience.
+* **Robust URL Validation:** The extension now employs a more reliable and efficient URL validation method, ensuring that only valid URLs are processed and opened.
 
-2. You can enter the list of URLs(one URL per line) manually (if they are not opened in the browser at that time) or you can just click on the "Get All Currently Opened Tab URLs" button.
+**Usage Instructions:**
 
-![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/23WWigHUcJMEy6GEF93nMqWt1fwGSa_EA1jM9T5C_deIFEeY_HpeFc2I6UvNoE1vzEU55zzwqA=w640-h400-e365-rj-sc0x00ffffff)
+1.  **Open the Extension:** After installation, click the extension icon to open the Bulk URL Opener extension interface.
 
-3. Set the Tab creation delay by using the slider. This time will allow you to open each URL after a specific wait time, instead of opening everything at once.
-4. Turn On/Off "Focus opened tabs" option based on your choice. This option will help you in automatically focusing on the tab that is being opened by this extension.
-5. Once you have modified these things, click on the "Open URLs" button.
+2.  **Input URLs:**
+    * **Manual Input:** Enter your list of URLs directly into the text area, ensuring each URL is on a new line. This is ideal for URLs not currently open in your browser.
+    * **Capture Open Tabs:** Alternatively, click the "Get All Currently Opened Tab URLs" button to automatically populate the text area with URLs from all your currently open tabs.
 
-![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/vge4EGOMNeDivkd3PP8GstNqaVg2zKnmGHXO49SRuNVYOSnEo8AHBT7EqEKk4WbPN8tPjpwaOQ=w640-h400-e365-rj-sc0x00ffffff)
+3.  **Customize Tab Creation Delay:**
+    * Use the slider to set a delay between the opening of each URL.
+    * This allows you to control the pace of tab creation, preventing overwhelming your browser.
+    * This is especially useful for websites that may rate-limit or restrict rapid access.
 
-6. When the extension is opening the URLs, you can check the progress in the progress bar.
-7. Once all the URLs are opened, the progress bar is updated with 100% progress.
+4.  **Toggle "Focus Opened Tabs":**
+    * Enable or disable the "Focus opened tabs" option based on your preference.
+    * When enabled, each newly opened tab will automatically be brought to the forefront.
+    * When disabled, tabs will open in the background, allowing you to continue working in your current tab.
 
-![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/xw8EAKuE2-Frxq5zhfqkCSWpD3zcZLSbdH-qYYY1tkVY_Rd8i_GYHW6tOZD1Ff0HEO5RWTo6fA=w640-h400-e365-rj-sc0x00ffffff)
+5.  **Initiate URL Opening:**
+    * Once you've configured your settings, click the "Open URLs" button to begin opening the specified URLs.
 
-8. If you wish to save this list of URLs for your future reference, click on the Settings icon which is next to "Save Current Configuration". It will open the advanced settings in the same window.
+6.  **Monitor Progress:**
+    * While the extension opens URLs, a progress bar will visually display the current status.
+    * The progress bar will dynamically fill as URLs are opened, providing a real-time indication of the progress.
+    * Upon completion of opening all URLs, an alert message will appear to confirm the successful operation.
 
-![Bulk-URL-Opener UI](https://lh3.googleusercontent.com/6U0sxIAT85dPkr9SneGz2n0QFYLGzSPNw0zUGauDnxtsQ192I_cLsPlea9YLgJUnG2bn7wwGQg=w640-h400-e365-rj-sc0x00ffffff)
+7.  **Stop URL Opening:**
+    * At any point during the URL opening process, click the "Stop URLs" button to halt the operation.
+    * This provides complete control, allowing you to prevent the opening of unwanted tabs.
+    * When the "Stop URLs" button is clicked, an alert message will appear, displaying the number of URLs that were successfully opened out of the total number of URLs provided.
 
-9. Provide the list name and click on the "Save Current List of URLs as List" button.
-10. You can load the saved list of URLs by selecting the URL list and clicking on the "Load list" button. It will load the list of URLs in the above text area.
-11. If you wish to Edit/Update/Delete the saved URL list, first select the URL list from the dropdown and click on the respective button.
-12. Here we have modified the tab creation delay, focus, and list of URLs. if you wish to save this configuration for future purposes then click on the "Save Current Configuration" button.
+8.  **Enable Dark Theme:**
+    * Toggle the dark theme option to switch to a visually comfortable dark interface.
+    * Reduces eye strain, especially during prolonged use or in low-light environments.
 
-If you like this extension, please provide your ratings with the feedback.
+9.  **Save URL Lists:**
+    * To save the current list of URLs for future use, click the Settings icon next to "Save Current Configuration".
+    * In the advanced settings that appear, provide a name for your list and click "Save Current List of URLs as List".
+
+10. **Load Saved URL Lists:**
+    * Select a saved URL list from the dropdown menu and click "Load list".
+    * The URLs from the selected list will populate the text area, ready to be opened.
+
+11. **Edit/Update/Delete URL Lists:**
+    * Select a URL list from the dropdown.
+    * Use the corresponding "Edit list", "Update list", or "Delete list" buttons to manage your saved lists.
+
+12. **Save Configuration:**
+    * If you've modified the tab creation delay, focus settings, URL list, or dark theme preference, click "Save Current Configuration" to save these settings.
+    * This ensures your preferred configuration is loaded the next time you use the extension.
+
+**If you like this extension, please provide your ratings with the feedback!**
+
+**Support the Developer:**
+
+If you find this extension helpful and would like to support its continued development, consider buying me a coffee!
+
+[Buy me a coffee](https://buymeacoffee.com/yadagirireddy)
 
 ## License
 This project is licensed under the BSD-3-Clause - see the [LICENSE.md](https://github.com/YadaGiriReddy/Bulk-URL-Opener/blob/main/LICENSE) file for details
