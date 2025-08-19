@@ -11,7 +11,9 @@ chrome.action.onClicked.addListener(function (tab) {
  * @param {chrome.runtime.InstalledDetails} details Details about the installation.
  */
 chrome.runtime.onInstalled.addListener(function (details) {
-    chrome.tabs.create({ url: "https://github.com/YadaGiriReddy/Bulk-URL-Opener" });
+    if (details.reason === "install") {
+        chrome.tabs.create({ url: "https://github.com/YadaGiriReddy/Bulk-URL-Opener" });
+    }
 });
 
 /**
